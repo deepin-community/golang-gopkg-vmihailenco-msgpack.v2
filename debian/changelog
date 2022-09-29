@@ -1,0 +1,147 @@
+golang-gopkg-vmihailenco-msgpack.v2 (4.3.1-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Shengjing Zhu ]
+  * Remove unused packages from Depends
+  * Update Section to golang
+  * Update Standards-Version to 4.5.1 (no changes)
+  * Update maintainer address to team+pkg-go@tracker.debian.org
+  * Bump debhelper-compat to 13
+  * Add Rules-Requires-Root
+  * Add Multi-Arch hint
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sun, 31 Jan 2021 04:28:18 +0800
+
+golang-gopkg-vmihailenco-msgpack.v2 (4.3.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sun, 29 Dec 2019 16:29:13 +1100
+
+golang-gopkg-vmihailenco-msgpack.v2 (4.2.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * Standards-Version: 4.4.1
+  * golang-go --> golang-any
+  * (Build-)Depends += "golang-github-vmihailenco-tagparser-dev"
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Thu, 26 Dec 2019 14:32:11 +1100
+
+golang-gopkg-vmihailenco-msgpack.v2 (3.3.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Added myself to Uploaders.
+  * DH & compat to version 12.
+  * Priority: optional; Standards-Version: 4.4.0.
+  * Removed "Built-Using" field from -dev package.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Thu, 26 Sep 2019 00:59:49 +1000
+
+golang-gopkg-vmihailenco-msgpack.v2 (3.1.1-5) unstable; urgency=medium
+
+  * Team upload.
+  * Removed myself from uploaders.
+
+ -- Alexandre Viau <aviau@debian.org>  Sun, 15 Sep 2019 19:19:36 -0400
+
+golang-gopkg-vmihailenco-msgpack.v2 (3.1.1-4) unstable; urgency=medium
+
+  * Vcs-* urls: pkg-go-team -> go-team.
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 05 Feb 2018 23:07:09 -0500
+
+golang-gopkg-vmihailenco-msgpack.v2 (3.1.1-3) unstable; urgency=medium
+
+  * point Vcs-* urls to salsa.d.o subproject
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 25 Jan 2018 15:08:31 -0500
+
+golang-gopkg-vmihailenco-msgpack.v2 (3.1.1-2) unstable; urgency=medium
+
+  * Move to salsa.debian.org.
+
+ -- Alexandre Viau <aviau@debian.org>  Fri, 29 Dec 2017 17:08:38 -0500
+
+golang-gopkg-vmihailenco-msgpack.v2 (3.1.1-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Testsuite: autopkgtest-pkg-go.
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 03 Aug 2017 16:44:18 -0400
+
+golang-gopkg-vmihailenco-msgpack.v2 (3.1.0-1) unstable; urgency=medium
+
+  * New upstream version.
+  * d/control: set XS-Go-Import-Path to
+    github.com/vmihailenco/msgpack.
+  * Create symlink at gopkg.in/vmihailenco/msgpack.v2.
+  * Bump Standards-Version to 4.0.0.
+
+ -- Alexandre Viau <aviau@debian.org>  Sun, 02 Jul 2017 02:32:37 -0400
+
+golang-gopkg-vmihailenco-msgpack.v2 (2.7.1-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 21 Jul 2016 10:56:13 -0400
+
+golang-gopkg-vmihailenco-msgpack.v2 (2.6.0-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Alexandre Viau <aviau@debian.org>  Fri, 01 Jul 2016 23:40:14 +0200
+
+golang-gopkg-vmihailenco-msgpack.v2 (2.5.6-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Alexandre Viau <aviau@debian.org>  Sat, 25 Jun 2016 21:44:27 +0200
+
+golang-gopkg-vmihailenco-msgpack.v2 (2.5.1-1) unstable; urgency=medium
+
+  * New upstream version
+  * Bump policy to 3.9.8
+  * Updated vcs-git URL
+
+ -- Alexandre Viau <aviau@debian.org>  Wed, 18 May 2016 11:52:48 -0400
+
+golang-gopkg-vmihailenco-msgpack.v2 (2.4.11-1) unstable; urgency=medium
+
+  * New upstream version
+  * Make use of XS-Go-Import-Path
+  * Bump standards version
+  * Fixed vcs-field-uses-insecure-uri
+
+ -- Alexandre Viau <aviau@debian.org>  Sun, 20 Mar 2016 10:49:26 -0400
+
+golang-gopkg-vmihailenco-msgpack.v2 (2.4.7-1) unstable; urgency=medium
+
+  * New upstream version
+  * Fixed filenamemangle in d/watch
+
+ -- Alexandre Viau <aviau@debian.org>  Wed, 06 Jan 2016 13:51:50 -0500
+
+golang-gopkg-vmihailenco-msgpack.v2 (2.4.5-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 17 Dec 2015 08:48:22 -0500
+
+golang-gopkg-vmihailenco-msgpack.v2 (2.4.4-1) unstable; urgency=medium
+
+  * New upstream version
+    - fixes armhf FTBFS
+  * Changed my email to @debian.org
+
+ -- Alexandre Viau <aviau@debian.org>  Sun, 06 Dec 2015 12:11:41 -0500
+
+golang-gopkg-vmihailenco-msgpack.v2 (2.3-1) unstable; urgency=low
+
+  * Initial release. (Closes: #792641)
+
+ -- Alexandre Viau <alexandre@alexandreviau.net>  Thu, 26 Mar 2015 22:24:39 -0400
